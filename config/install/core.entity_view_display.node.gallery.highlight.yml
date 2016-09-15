@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.highlight
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_gallery_type
+    - field.field.node.gallery.field_images
+    - node.type.gallery
+  module:
+    - text
+    - user
+id: node.gallery.highlight
+targetEntityType: node
+bundle: gallery
+mode: highlight
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_gallery_type:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden:
+  field_images: true
+  links: true

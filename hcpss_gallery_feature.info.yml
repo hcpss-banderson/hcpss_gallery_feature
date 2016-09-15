@@ -1,0 +1,19 @@
+name: 'Gallery Feature'
+description: 'Gallery content type with view and taxonomy.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+version: 8.x-1.0
+package: HCPSS

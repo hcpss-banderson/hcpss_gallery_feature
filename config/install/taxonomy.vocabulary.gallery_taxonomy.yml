@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Gallery Taxonomy'
+vid: gallery_taxonomy
+description: ''
+hierarchy: 0
+weight: 0

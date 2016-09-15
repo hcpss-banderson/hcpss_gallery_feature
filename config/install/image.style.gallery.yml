@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: gallery
+label: Gallery
+effects:
+  10ba9efa-8d68-4384-b92b-b146a1dff7c8:
+    uuid: 10ba9efa-8d68-4384-b92b-b146a1dff7c8
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: false
